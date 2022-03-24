@@ -8,7 +8,7 @@ public class ManejaCircuferencia {
 		Circulo circulo2;
 		circulo1=new Circulo(7,9,4.5);
 		System.out.println("circulito 1: ");
-		System.out.println("Coordenada x del centro: " +circulo1.coordX);
+		System.out.println("Coordenada x del centro: " +circulo1.getCoordX());
 		System.out.println("Coordenada y del centro: " +circulo1.getCoordY());
 		System.out.println("coordenada radio del centro: " +circulo1.getRadio());
 		System.out.println("La radio es: "+circulo1.devuelveArea());

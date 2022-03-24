@@ -5,11 +5,12 @@ public class Circulo {
 	
 	private MiParejaNumeros centroCirculo;
 	double radio;
+	public String getCoordX;
 	//constructor
 		public Circulo(int coordX, int coordY, double radio) {
 			super();
 			centroCirculo=new MiParejaNumeros(coordX,coordY);
-			this.radio = radio;0
+			this.radio = radio;
 		}
 		public int getCoordX() {
 			return centroCirculo.getNum1();
